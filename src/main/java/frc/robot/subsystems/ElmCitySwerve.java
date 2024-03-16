@@ -131,7 +131,6 @@ public class ElmCitySwerve extends SubsystemBase {
       angle = desiredstate.angle;
     }
     angleController.setReference(angle.getDegrees(),ControlType.kPosition);
-    lastAngle = angle;
   }
 
 
