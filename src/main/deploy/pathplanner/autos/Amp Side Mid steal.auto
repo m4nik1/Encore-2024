@@ -1,0 +1,43 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 15.789325889921903,
+      "y": 6.476385904471273
+    },
+    "rotation": -61.927513064146716
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Amp Side Cross line"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Amp Side Return"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Amp Side Mid court"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Amp Side Mid return"
+          }
+        }
+      ]
+    }
+  },
+  "folder": null,
+  "choreoAuto": false
+}

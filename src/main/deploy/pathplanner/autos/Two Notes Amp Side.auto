@@ -1,0 +1,37 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 15.789325889921903,
+      "y": 6.476385904471273
+    },
+    "rotation": -62.24145939893979
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "named",
+          "data": {
+            "name": "Stow Arm"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Amp Side Cross line"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Amp Side Return"
+          }
+        }
+      ]
+    }
+  },
+  "folder": null,
+  "choreoAuto": false
+}
